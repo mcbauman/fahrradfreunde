@@ -1,0 +1,128 @@
+html{
+  /* font-family: 'Open Sans Condensed', sans-serif; */
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.6em;
+  font-weight: 100;
+}
+
+body{
+  background-image: url("./bilder/Hintergrund9.jpeg");
+  background-size: cover;
+  margin: 0px;
+}
+
+header{
+  /* background-color: darkred; */
+  color: white;
+}
+
+h1{
+    margin:0 20px;
+}
+
+h2{
+  font-variant: small-caps;
+  margin: 0px;
+  padding: 3px;
+  width: fit-content;
+}
+
+ul{
+  margin: 0;
+  padding:0;
+  /* text-transform: uppercase; */
+  font-variant: small-caps;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+li{
+  text-align: center;
+  padding: 0 3px;
+  margin: 0;
+  list-style-type: none;
+}
+
+img{
+  width: 40%;
+  height: 40%;
+}
+
+a:hover {
+    color: red;
+}
+
+P{
+  text-align: justify;
+  margin:10px;
+  font-weight: 100;
+  font-size: 0.8em;
+}
+
+.article{
+  display: flex;
+  margin-bottom: 20px;
+  background-color: rgba(210, 210, 210, 0.70);
+}
+.news{
+  background-color: rgba(30, 30, 30, 0.75);
+  border: rgba(120, 200, 170) groove 1px;
+  color: rgba(120, 200, 170);
+}
+.testberichte{
+  background-color:rgba(30, 30, 30, 0.75);
+  border: rgba(160, 190, 210) groove 1px;
+  color: rgba(160, 190, 210);
+}
+.produktvorstellungen{
+  background-color:rgba(30, 30, 30, 0.75);
+  border: rgba(230, 160, 150) groove 1px;
+  color: rgba(230, 160, 150);
+}
+.reiseberichte{
+  background-color:rgba(30, 30, 30, 0.75);
+  border: rgba(230, 170, 120) groove 1px;
+  color: rgba(230, 170, 120);
+}
+.forum{
+  background-color:rgba(30, 30, 30, 0.75);
+  border: rgba(200, 220, 120) groove 1px;
+  color: rgba(180, 200, 110);
+}
+.special{
+  background-color:rgba(30, 30, 30, 0.75);
+  border: rgba(130, 210, 130) groove 1px;
+  color: rgba(130, 210, 130);
+}
+
+
+
+
+html, body {
+  height:100%;
+  /* overflow:hidden; */
+
+}
+
+header {
+  position:sticky;
+}
+
+nav {
+  position:sticky;
+}
+
+main {
+  margin: 0px 20px;
+  height:83%;
+  position:relative;
+  overflow: auto;}
+
+footer {
+  color: white;
+  bottom:0px;
+  position:absolute;
+  height:4%;
+  padding-left: 20px;
+  background-color: rgba(30, 30, 30, 0.75);
+}
