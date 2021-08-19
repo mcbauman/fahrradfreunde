@@ -3,6 +3,7 @@ html{
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.6em;
   font-weight: 100;
+  max-width: 1400px;
 }
 
 body{
@@ -15,6 +16,7 @@ header{
   /* background-color: darkred; */
   color: white;
 }
+
 
 h1{
     margin:0 20px;
@@ -44,8 +46,8 @@ li{
 }
 
 img{
-  width: 40%;
-  height: 40%;
+  width: 300px;
+  height: auto;
 }
 
 a:hover {
@@ -61,7 +63,7 @@ P{
 
 .article{
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   background-color: rgba(210, 210, 210, 0.70);
   border-radius: 20px;
 }
