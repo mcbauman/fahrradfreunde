@@ -63,36 +63,43 @@ P{
   display: flex;
   margin-bottom: 20px;
   background-color: rgba(210, 210, 210, 0.70);
+  border-radius: 20px;
 }
 .news{
   background-color: rgba(30, 30, 30, 0.75);
   border: rgba(120, 200, 170) groove 1px;
   color: rgba(120, 200, 170);
+  border-radius: 20px;
 }
 .testberichte{
   background-color:rgba(30, 30, 30, 0.75);
   border: rgba(160, 190, 210) groove 1px;
   color: rgba(160, 190, 210);
+  border-radius: 20px;
 }
 .produktvorstellungen{
   background-color:rgba(30, 30, 30, 0.75);
   border: rgba(230, 160, 150) groove 1px;
   color: rgba(230, 160, 150);
+  border-radius: 20px;
 }
 .reiseberichte{
   background-color:rgba(30, 30, 30, 0.75);
   border: rgba(230, 170, 120) groove 1px;
   color: rgba(230, 170, 120);
+  border-radius: 20px;
 }
 .forum{
   background-color:rgba(30, 30, 30, 0.75);
   border: rgba(200, 220, 120) groove 1px;
   color: rgba(180, 200, 110);
+  border-radius: 20px;
 }
 .special{
   background-color:rgba(30, 30, 30, 0.75);
   border: rgba(130, 210, 130) groove 1px;
   color: rgba(130, 210, 130);
+  border-radius: 20px;
 }
 
 
