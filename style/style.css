@@ -15,7 +15,6 @@ body{
 }
 
 header{
-  /* background-color: darkred; */
   color: white;
 }
 
@@ -24,14 +23,13 @@ main {
 } 
 
 h1{
-    margin:0 20px;
+  margin: 20px;
 }
 
 h2{
   font-variant: small-caps;
   margin: 0px;
   padding: 3px;
-  width: fit-content;
 }
 
 ul{
@@ -40,7 +38,6 @@ ul{
   font-variant: small-caps;
   display: flex;
   justify-content: space-around;
-  list-style-type: none;
 }
 li{
   text-align: center;
@@ -69,47 +66,47 @@ P{
   display: flex;
   padding: 20px;
   margin-bottom: 40px;
-  background-color: rgba(210, 210, 210, 0.70);
+  background-color: var(--backgroundlight);
   border-radius: 20px;
 }
 .news{
   padding: 10px 20px;
-  background-color: rgba(30, 30, 30, 0.75);
+  background-color: var(--backgrounddark);
   border: rgba(120, 200, 170) groove 1px;
   color: rgba(120, 200, 170);
   border-radius: 20px;
 }
 .testberichte{
   padding: 10px 20px;
-  background-color:rgba(30, 30, 30, 0.75);
+  background-color:var(--backgrounddark);
   border: rgba(160, 190, 210) groove 1px;
   color: rgba(160, 190, 210);
   border-radius: 20px;
 }
 .produktvorstellungen{
   padding: 10px 20px;
-  background-color:rgba(30, 30, 30, 0.75);
+  background-color:var(--backgrounddark);
   border: rgba(230, 160, 150) groove 1px;
   color: rgba(230, 160, 150);
   border-radius: 20px;
 }
 .reiseberichte{
   padding: 10px 20px;
-  background-color:rgba(30, 30, 30, 0.75);
+  background-color:var(--backgrounddark);
   border: rgba(230, 170, 120) groove 1px;
   color: rgba(230, 170, 120);
   border-radius: 20px;
 }
 .forum{
   padding: 10px 20px;
-  background-color:rgba(30, 30, 30, 0.75);
+  background-color:var(--backgrounddark);
   border: rgba(200, 220, 120) groove 1px;
   color: rgba(180, 200, 110);
   border-radius: 20px;
 }
 .special{
   padding: 10px 20px;
-  background-color:rgba(30, 30, 30, 0.75);
+  background-color:var(--backgrounddark);
   border: rgba(130, 210, 130) groove 1px;
   color: rgba(130, 210, 130);
   border-radius: 20px;
